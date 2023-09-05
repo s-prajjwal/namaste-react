@@ -1,2 +1,2 @@
 # namaste-react
-A React learning directory while deep-diving into it's mechanics.🤘🏻🎉
+A React learning repository with deep-diving into it's mechanics.🤘🏻🎉
