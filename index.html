@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Namaste React</title>
   </head>
   <body>
-    <div id="root"></div>
+    <h1>Above root!</h1>
+    <!-- Content of root will be replaced by ReactDOM.render method's content -->
+    <!-- ReactDOM.render method only replaces the content inside the root, the above and below content will remain as it is. -->
+    <div id="root"><h1>Prajjwal is here!</h1></div>
+    <h1>Below root!</h1>
+
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
@@ -16,5 +22,6 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
+    <script src="./App.js"></script>
   </body>
 </html>
